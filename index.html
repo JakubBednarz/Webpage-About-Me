@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/b0fa17aa43.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Italianno|Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jakub Bednarz - wizytówka</title>
+</head>
+<body>
+    <!-- Navigation section-->
+    <nav class="navbar fixed-top navbar-dark navbar-expand-md">
+        <div class="container">
+            <a id="name-logo" class="navbar-brand" href="#">Jakub Bednarz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigationLinks" aria-expanded="false" aria-label="Przełącznik nawigacji">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+           <div class="collapse navbar-collapse" id="navigationLinks">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me">O mnie</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Moje zainteresowania
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#books">Książki fantasy/sci-fi</a>
+                            <a class="dropdown-item" href="#mountains">Wędrówki po górach</a>
+                            <a class="dropdown-item" href="#travel">Podróżowanie</a>
+                            <a class="dropdown-item" href="#technology">Nowinki technologiczne</a>
+                            <a class="dropdown-item" href="#rpg">Gry RPG</a>
+                            <a class="dropdown-item" href="#history">Historia</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#like-cv">Praca i nauka</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#currently">Obecnie</a>
+                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Welcome section -->
+    <section class="hero">
+        <div class="slogan">
+            <h1>Dowiedz się o mnie</h1>
+        </div>
+    </section>
+    <!-- Main section -->
+    <div>
+        <div class="offset-navigation">
+            <span class="offest-navigation-el" id="about-me"></span>
+        </div>
+        <section class="container">
+            <div class="row short-description">
+                <div class="col-md-4 col-with-portrait">
+                    <img src="Images/venice-portrait.png" alt="Zdjęcie portretowe Jakuba na tle Wenecji" class="img-fluid img-portrait">
+                </div>
+                <div class="col-md-8">
+                    <h3>O mnie</h3>
+                    <p class="text-justify">
+                        Jestem jeszcze w miarę młodym mężczyzną (27 lat to niedużo!) mieszkającym od urodzenia we Wrocławiu. 
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="diffrent-background">
+            <div class="container">
+                <div class="d-flex justify-content-center space-up">
+                    <h1>Moje zainteresowania</h1>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <p>Nic tak nie przemawia za człowiekiem jak to czym się interesuje. Dlatego też zachęcam do zapoznania się z moimi zamiłowaniami.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="books"></span>
+                        </div>
+                        <h3 class="thumbnail-headline thumbnail-headline1">Książki fantasy/sci-fi</h3>
+                        <img src="Images/fantasy-book.jpg" alt="Książka z której wydobywa się wodospad, na tle chmur." class="img-fluid thumbnail thumbnail1">
+                        <div class="overlay"></div>
+                        <div class="thumbnail-description thumbnail-description1">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae, debitis nihil magni obcaecati hic vitae inventore fugiat culpa accusantium fugit dolore, amet cumque sequi quasi sed, alias nesciunt est.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="mountains"></span>
+                        </div>
+                        <h3 class="thumbnail-headline thumbnail-headline2">Wędrówki po górach</h3>
+                        <img src="Images/mountain.jpg" alt="Łańcuch górski" class="img-fluid thumbnail thumbnail2">
+                        <div class="overlay"></div>
+                        <div class="thumbnail-description thumbnail-description2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae, debitis nihil magni obcaecati hic vitae inventore fugiat culpa accusantium fugit dolore, amet cumque sequi quasi sed, alias nesciunt est.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="travel"></span>
+                        </div>
+                        <h3 class="thumbnail-headline thumbnail-headline3">Podróżowanie</h3>
+                        <img src="Images/globe.jpg" alt="Globus" class="img-fluid thumbnail thumbnail3">
+                        <div class="overlay"></div>
+                        <div class="thumbnail-description thumbnail-description3">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae, debitis nihil magni obcaecati hic vitae inventore fugiat culpa accusantium fugit dolore, amet cumque sequi quasi sed, alias nesciunt est.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="technology"></span>
+                        </div>
+                        <h3 class="thumbnail-headline thumbnail-headline4">Nowe technologie</h3>
+                        <img src="Images/matrix.jpg" alt="Ciąg zielonych znaków na czarnym tle niczym kod z Matrixu" class="img-fluid thumbnail thumbnail4">
+                        <div class="overlay"></div>
+                        <div class="thumbnail-description thumbnail-description4">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae, debitis nihil magni obcaecati hic vitae inventore fugiat culpa accusantium fugit dolore, amet cumque sequi quasi sed, alias nesciunt est.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="rpg"></span>
+                        </div>
+                        <h3 class="thumbnail-headline thumbnail-headline5">Gry RPG</h3>
+                        <img src="Images/floating-castle.jpg" alt="Latająca wyspa z budynkiem na tle pięknego górskiego krajobrazu." class="img-fluid thumbnail thumbnail5">
+                        <div class="overlay"></div>
+                        <div class="thumbnail-description thumbnail-description5">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae, debitis nihil magni obcaecati hic vitae inventore fugiat culpa accusantium fugit dolore, amet cumque sequi quasi sed, alias nesciunt est.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="history"></span>
+                        </div>
+                        <h3 class="thumbnail-headline thumbnail-headline6">Historia</h3>
+                        <img src="Images/history.jpg" alt="Pionki na grze planszowej." class="img-fluid thumbnail thumbnail6">
+                        <div class="overlay"></div>
+                        <div class="thumbnail-description thumbnail-description6">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus recusandae, debitis nihil magni obcaecati hic vitae inventore fugiat culpa accusantium fugit dolore, amet cumque sequi quasi sed, alias nesciunt est.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="offset-navigation">
+                <span class="offest-navigation-el" id="like-cv"></span>
+            </div>
+            <div class="d-flex justify-content-center space-up">
+                <h1>Praca i nauka</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Doświadczenie zawodowe</h3>
+                    <div class="row">
+                            <div class="col-md-4">
+                                <b>05/2018 – </b>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Ups Global Business Services Polska Sp. z o.o.</p>
+                                <p>Stanowisko: Brokerage rater</p>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4">
+                                <b>12/2016 – 01/2018</b>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Aeternus Konserwacja Zabytków Radosław Stasiuk</p>
+                                <p>Stanowisko: Konserwator zabytków</p>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4">
+                                <b>07/2016 – 11/2016</b>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Pracownia Archeologiczno – Konserwatorska „Archeolog Tomasz Ciasnocha”</p>
+                                <p>Stanowisko: Archeolog</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h3>Ukończone szkoły</h3>
+                    <div class="row">
+                            <div class="col-md-4">
+                                <b>09/2011 – 06/2016</b>
+                            </div>
+                            <div class="col-md-8">
+                                <p>Uniwersytet Wrocławski, Archeologia</p>
+                                <p>Specjalizacja: Wczesne Średniowiecze</p>
+                            </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-4">
+                                <b>09/2008 – 05/2011</b>
+                            </div>
+                            <div class="col-md-8">
+                                <p>XII Liceum Ogólnokształcące im. Bolesława Chrobrego we Wrocławiu</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="diffrent-background">
+            <div class="container">
+                <div class="d-flex justify-content-center">
+                    <div class="offset-navigation">
+                        <span class="offest-navigation-el" id="currently"></span>
+                    </div>
+                    <h1>Obecnie</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Front-end</h3>
+                        <p class="text-justify">Aktualnie uczę się programować w pełni responsywne strony internetowe i aplikacje od strony Front-endu. Przyswajam wszelkie dobre praktyki związane z HTML, CSS, Javascript. Mam nadzieję, że niedługo może zaprogramuję coś dla Ciebie.</p>
+                    </div>
+                    <div class="col-md-6 d-flex justify-content-center align-items-center">
+                        <h1 class="rainbow">Programowanie nie musi być nudne!</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container">
+            <div class="d-flex justify-content-center">
+                <h1>Bonus</h1>
+            </div>
+            <div class="d-flex justify-content-center">
+                <p>Jako bonus, że udało Ci się dotrzeć tak daleko podzielę się z Tobą zdjęciami moich 2 kotów :)</p>
+            </div>
+            <div class="row d-flex justify-content-around">
+                <div class="col-md-4">
+                    <img src="Images/kasek2.png" alt="Biały kot" class="img-fluid img-thumbnail img-cat">
+                </div>
+                <div class="col-md-4">
+                        <img src="Images/przeslik2.png" alt="Czarny kot" class="img-fluid img-thumbnail img-cat">
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer-upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="offset-navigation">
+                            <span class="offest-navigation-el" id="contact"></span>
+                        </div>
+                        <form action="#" method="GET">
+                            <h2>Skontaktuj się ze mną</h2>
+                            <div class="form-group">
+                                <label for="name">Imię i nazwisko:</label>
+                                <input class="form-control" type="text" id="name" name="user_name" disabled>
+                            </div>
+                            <div class="form-group">
+                                <label for="mail">E-mail:</label>
+                                <input class="form-control" type="email" id="mail" name="user_mail" disabled>
+                            </div>
+                            <div class="form-group>
+                                <label for="msg">Wiadomość:</label>
+                                <textarea class="form-control" id="msg" name="user_message" placeholder="Sekcja w trakcie budowy. Jeśli potrzebujesz się ze mną skontaktować wyślij mi wiadomość na : j_bednarz28.03.92@wp.pl" disabled></textarea>
+                            </div>
+                            <div class="button">
+                                <button type="submit" class="btn btn-primary float-right" disabled>Wyślij</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h2>Znajdź mnie na</h2>
+                        <div class="icon-container">
+                            <a href="https://www.facebook.com/jakub.bednarz.96" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                            <a href="https://github.com/JakubBednarz" target="_blank"><i class="fab fa-github-square"></i></a>
+                            <a href="https://www.linkedin.com/in/jakub-bednarz-b32706144/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            ©2019 Jakub Bednarz I Wszelkie prawa zastrzeżone
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
